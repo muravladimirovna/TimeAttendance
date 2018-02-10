@@ -1,0 +1,61 @@
+﻿@using TimeAttendance.Domain.Models
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+        @Styles.Render("~/Content/css")
+    <link href="@Url.Content("/Content/site.css")" rel="stylesheet" type="text/css" />
+    <link href="../../Content/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/bootstrap-datetimepicker-1.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*@Html.ActionLink("TimeAttendance", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+                @*<span class = "navbar-brand"><span class="glyphicon glyphicon-time" style="margin-right:5px;"></span>TimeAttendance</span>*@
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                   <li>@Html.ActionLink("Мои отметки", "Create", "Marks")</li>
+                    @if (User.IsInRole("admin"))
+                    {
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown">Управление <span class="caret"></span></a> 
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("Пользователи", "Index", "Users")</li>
+                                <li>@Html.ActionLink("Отметки", "Index", "Marks")</li>
+                                <li>@Html.ActionLink("Отчет", "CreateReport", "Marks")</li>
+                            </ul>
+                        </li>
+                    }
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <br clear-"all" />
+   <div class="container body-content" style="padding-bottom: 50px;">
+        @RenderBody()
+        @*<footer class="navbar-fixed-bottom panel-footer">
+            <hr />
+            @*<p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>*@
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @*@Scripts.Render("~/bundles/js")*@
+    @RenderSection("scripts", required: false)
+</body>
+</html>

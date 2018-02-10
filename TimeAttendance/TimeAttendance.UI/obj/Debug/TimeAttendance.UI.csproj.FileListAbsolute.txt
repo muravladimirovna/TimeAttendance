@@ -1,0 +1,306 @@
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\ApplicationInsights.config
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\csc.exe
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\csc.exe.config
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\csc.rsp
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\csi.exe
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\csi.rsp
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.AppContext.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\vbc.exe
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\vbc.exe.config
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\vbc.rsp
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.UI.dll.config
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.UI.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.UI.pdb
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Antlr3.Runtime.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\EntityFramework.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\EntityFramework6.Npgsql.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Newtonsoft.Json.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Npgsql.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Owin.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.Helpers.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.Mvc.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.Optimization.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.Razor.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.Domain.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\WebGrease.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.Domain.pdb
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Antlr3.Runtime.pdb
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\EntityFramework6.Npgsql.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Npgsql.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.Helpers.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.Mvc.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.Optimization.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.Razor.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Newtonsoft.Json.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\EntityFramework.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\obj\Debug\TimeAttendance.UI.csprojResolveAssemblyReference.cache
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\obj\Debug\TimeAttendance.UI.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\obj\Debug\TimeAttendance.UI.pdb
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\obj\Debug\TimeAttendance.UI.Migrations.DataMigration.resources
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\obj\Debug\TimeAttendance.UI.csproj.GenerateResource.Cache
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\obj\Debug\TimeAttendance.UI.Migrations.DataMigration1.resources
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.UI\obj\Debug\TimeAttendance.UI.Migrations.DataMigration2.resources
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\obj\Debug\TimeAttendance.UI.csprojResolveAssemblyReference.cache
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\obj\Debug\TimeAttendance.UI.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\obj\Debug\TimeAttendance.UI.pdb
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\ApplicationInsights.config
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\csc.exe
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\csc.exe.config
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\csc.rsp
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\csi.exe
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\csi.rsp
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.AppContext.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\vbc.exe
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\vbc.exe.config
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\vbc.rsp
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.UI.dll.config
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.UI.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.UI.pdb
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Antlr3.Runtime.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\EntityFramework.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\EntityFramework6.Npgsql.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Newtonsoft.Json.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Npgsql.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Owin.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Helpers.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Mvc.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Optimization.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Razor.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.Domain.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\WebGrease.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.Domain.pdb
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Antlr3.Runtime.pdb
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\EntityFramework6.Npgsql.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Npgsql.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Helpers.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Mvc.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Optimization.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Razor.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Newtonsoft.Json.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\EntityFramework.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.EntityFrameworkCore.DynamicLinq.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Logging.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Options.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Remotion.Linq.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Collections.Immutable.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Interactive.Async.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Linq.Dynamic.Core.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.EntityFrameworkCore.DynamicLinq.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Logging.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Options.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\Remotion.Linq.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Collections.Immutable.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Interactive.Async.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Linq.Dynamic.Core.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.UI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\ApplicationInsights.config
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\csc.exe
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\csc.exe.config
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\csc.rsp
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\csi.exe
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\csi.rsp
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.AppContext.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\vbc.exe
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\vbc.exe.config
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\vbc.rsp
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.UI.dll.config
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.UI.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.UI.pdb
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Antlr3.Runtime.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\EntityFramework.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\EntityFramework6.Npgsql.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.EntityFrameworkCore.DynamicLinq.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Logging.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Options.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Newtonsoft.Json.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Npgsql.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Owin.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Remotion.Linq.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Collections.Immutable.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Interactive.Async.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Linq.Dynamic.Core.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Helpers.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Mvc.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Optimization.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Razor.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.Domain.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\WebGrease.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\TimeAttendance.Domain.pdb
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Antlr3.Runtime.pdb
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\EntityFramework6.Npgsql.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.EntityFrameworkCore.DynamicLinq.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Logging.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Options.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Npgsql.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Remotion.Linq.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Collections.Immutable.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Interactive.Async.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Linq.Dynamic.Core.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Helpers.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Mvc.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Optimization.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.Razor.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Newtonsoft.Json.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\EntityFramework.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\obj\Debug\TimeAttendance.UI.csprojResolveAssemblyReference.cache
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\obj\Debug\TimeAttendance.UI.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.UI\obj\Debug\TimeAttendance.UI.pdb

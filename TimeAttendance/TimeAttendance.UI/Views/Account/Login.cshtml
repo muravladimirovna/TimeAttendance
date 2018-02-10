@@ -1,0 +1,55 @@
+﻿@using TimeAttendance.UI.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Авторизация";
+}
+@{
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<div class="col-xs-offset-3 col-xs-9">
+    <h2>Пожалуйста, авторизуйтесь</h2>
+        <section id="loginForm">
+            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        <label class="col-xs-2 control-label">
+                            <span class="glyphicon glyphicon-user"></span>
+                        </label>
+                        <div class="col-xs-5">
+                            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger", @placefolder = "Логин" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-2 control-label">
+                            <span class="glyphicon glyphicon-lock"></span>
+                        </label>
+                        <div class="col-xs-5">
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placefolder="Пароль" })
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-offset-2 col-xs-5">
+                            <label class="checkbox">
+                                @Html.CheckBoxFor(m => m.RememberMe, new { @style= "margin-left:0;" })
+                                <span style="padding-left:20px;font-weight:normal;">Запомнить меня</span>
+                            </label>
+                            
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-offset-2 col-xs-5">
+                            <input type="submit" value="Войти" class="btn btn-primary btn-md btn-block" />
+                        </div>
+                    </div>
+            }
+        </section>
+    </div>
+<br clear="all" />
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,14 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+.report{
+    border: solid 1px black;
+    border-collapse: collapse;
+    font-size: 14px;
+    text-align: center;
+}
+.report td, th{
+    border: solid 1px;
+    padding: 5px;
+}

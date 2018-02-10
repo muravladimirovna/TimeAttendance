@@ -1,0 +1,119 @@
+﻿@model List<TimeAttendance.UI.Models.ShowMarks>
+@*@{
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }*@
+<h3>Последние отметки <b>@ViewBag.UserName</b></h3>
+<br />
+<div class="col-md-10">
+    <div class="table-responsive">
+        <table id="example" class="table table-bordered display" cellspacing="0" style="margin-bottom:25px;">
+            <thead>
+                <tr>
+                    @if (User.IsInRole("admin") && ViewBag.UserId == null)
+                    {
+                        <th>Пользователь<span class="caret"></span></th>
+                    }
+
+                    <th class="sorting_desc">Время прихода<span class="caret"></span></th>
+                    <th>Время ухода<span class="caret"></span></th>
+
+                    @if (User.IsInRole("admin"))
+                    {
+                        <th>Автор<span class="caret"></span></th>
+                        <th></th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var b in Model)
+                {
+                    <tr>
+                        @if (User.IsInRole("admin") && ViewBag.UserId == null)
+                        {
+                            <td>@Html.ActionLink(b.UserName, "Create", new { id = b.UserId })</td>
+                        }
+                        <td>@b.Coming_Date</td>
+                        <td>@b.Out_Date</td>
+                        @if (User.IsInRole("admin"))
+                        {
+                            <th>@b.Author</th>
+                            <td>
+
+                                <a id="button" href="#Modal" onclick="load(@b.Id)" data-toggle="modal" data-target="#Modal">
+                                    <span class="glyphicon glyphicon-edit"></span>
+                                </a>
+                            </td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<br clear="all" />
+
+<div id="Modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content" id="result"></div>
+    </div>
+</div>
+
+@section Scripts {
+        @Scripts.Render("~/Scripts/jquery-1.11.1.js")
+        @Scripts.Render("~/Scripts/jquery.dataTables.min.js")
+
+        <script type="text/javascript">
+                $(document).ready(function () {
+                    $('#example').DataTable({
+                            "order": [[ 0, "desc" ]]
+                        });
+                });
+        </script>
+
+        @Scripts.Render("~/Scripts/jquery.inputmask.bundle.js")
+        @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.js")
+        @*@Scripts.Render("~/Scripts/moment-with-locales.min.js")
+        @Scripts.Render("~/Scripts/bootstrap-datetimepicker.min.js")*@
+        @Scripts.Render("~/Scripts/moment-with-locales-1.js")
+        @Scripts.Render("~/Scripts/bootstrap-datetimepicker-1.js")
+        <script type="text/javascript">
+
+            function load(data) {
+                console.log(0);
+                    $("#result").empty();
+                    $.ajax({
+                        type: "GET",
+                        url: '/Marks/Edit',
+                        data: { id: data },
+                        success: function (result) {
+                            console.log('success');
+                            $('#result').html(result);
+                            console.log('datetimepicker1');
+                            //$('#datetimepicker1').inputmask("99.99.9999 99:99:99");
+                            $('#datetimepicker1').datetimepicker({
+                                format: 'DD.MM.YYYY HH:mm:ss', //
+                                locale: moment.locale("ru"),
+                                minDate: moment().add(-(@DateTime.Now.Day -1), 'd').toDate(),
+                                maxDate: 'now',
+                            });
+                            console.log('datetimepicker1');
+                            $('#datetimepicker2').inputmask("99.99.9999 99:99:99");
+                            $('#datetimepicker2').datetimepicker({
+                                format: 'DD.MM.YYYY HH:mm:ss', //
+                                locale: moment.locale("ru"),
+                                minDate: moment().add(-(@DateTime.Now.Day -1), 'd').toDate(),
+                                maxDate: 'now',
+                            });
+                        }
+                    })
+            };
+
+            function clear() {
+                $("#result").empty();
+            };
+
+        </script>
+    }
+
+
+

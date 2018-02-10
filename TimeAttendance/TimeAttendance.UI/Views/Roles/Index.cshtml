@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>
+    <h3>Список ролей</h3>
+    <table>
+        <tr class="header">
+            <td><p>Id</p></td>
+            <td style="border:none;"><p>Name</p></td>
+        </tr>
+        @foreach (var b in ViewBag.Roles)
+            {
+            <tr>
+                <td><p>@b.Id</p></td>
+                <td style="border:none;"><p>@b.Name</p></td>
+            </tr>
+        }
+    </table>
+</div>
+

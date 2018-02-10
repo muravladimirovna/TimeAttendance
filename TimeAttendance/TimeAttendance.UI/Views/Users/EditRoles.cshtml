@@ -1,0 +1,13 @@
+﻿@*@model List<TimeAttendance.UI.Models.EditRoles>*@
+
+@using (Html.BeginForm("EditRoles", "Users", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    foreach (var urole in ViewBag.Roles)
+    {
+        <input value="@urole" name="delrole">@urole <button class="btn btn-default glyphicon glyphicon-minus" type="submit"></button>
+    }
+    foreach (var b in ViewBag.AddRoles)
+    {
+        <input value="@b.Name" name="addrole">@b.Name <button class="btn btn-default glyphicon glyphicon-minus" type="submit"></button>
+    }
+}

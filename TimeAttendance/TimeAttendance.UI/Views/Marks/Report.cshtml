@@ -1,0 +1,133 @@
+﻿@model List<TimeAttendance.UI.Models.ResultToReport>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="@Url.Content("/Content/ReportStyle.css")" rel="stylesheet" type="text/css" />
+    <title>Отчет</title>
+</head>
+<body>
+    <div>
+         <table class="report">
+             <thead style="background-color: #eee">
+                 <tr>
+                     <th rowspan="3">ФИО</th>
+                     <th colspan="@ViewBag.Info.All.Count">@ViewBag.Info.MName</th>
+                     <th colspan="2" rowspan="2">норма</th>
+                     <th colspan="2" rowspan="2">отработано</th>
+                         
+                     <th rowspan="3">прогулов</th>
+                     <th rowspan="3">опозданий</th>
+                     <th rowspan="3">остаток часов</th>
+                 </tr>
+                 <tr>
+                     @foreach (var p in ViewBag.Info.All)
+                     {
+                         <th style="width: 15px">@p.date.Day</th>
+                     }
+                 </tr>
+                 <tr>
+                     @foreach (var e in ViewBag.Info.All)
+                     {
+                         <th>@e.sum</th>
+                     }
+                     <th>час</th>
+                     <th>дней</th>
+                     <th>час</th>
+                     <th>дней</th>
+                 </tr>
+             </thead>
+             <tbody>
+                 @foreach(var b in Model)
+                 {
+                     <tr>
+                         <td style="text-align:left">@b.lastname @b.firstname @b.middlename</td>
+                         @if (b.Days != null)
+                         {
+                             foreach (var m in b.Days)
+                             {
+                                 if (ViewBag.Info.Days.Contains(m.date))
+                                 {
+                                    <td style="background: #f4f4f4">
+                                        @if (m.sum == null)
+                                        {
+                                            <span>-</span> // выходной день
+                                        }else
+                                        {
+                                            <span>@m.sum</span> // выходной день
+                                        }
+                                    </td>
+                                 }else
+                                 {
+                                    if (m.sum == null)
+                                    {
+                                        <td @*style="background:#ff7d7d;"*@>н</td>
+                                     }else
+                                     {
+                                         var fl = false;
+                                         @*if (b.earlylist != null)
+                                         {
+                                             if (b.earlylist.Contains(m.date))
+                                             {
+                                                <td style="background: #ffe186" >@m.sum</td>
+                                                 fl = true;
+                                             }
+                                         }
+                                         if (b.latelist != null)
+                                         {
+                                             if (b.latelist.Contains(m.date) && !b.earlylist.Contains(m.date))
+                                             {
+                                                <td style="background: #ffe186" >@m.sum</td>
+                                                 fl = true;
+                                             }
+                                         }*@
+                                         if (fl != true)
+                                         {
+                                            <td>@m.sum</td>
+                                         }
+
+                                     }
+                                 }
+                             }
+                         }
+                         else
+                         {
+                             foreach (var m in ViewBag.Info.All)
+                             {
+                                 if (ViewBag.Info.Days.Contains(m.date))
+                                 {
+                                    <td style="background: #f4f4f4">
+                                        <span>-</span>
+                                    </td>
+                                 }else
+                                 {
+                                    <td>0</td>
+                                 }
+                             }
+                         }
+                         <th>@ViewBag.Info.Task</th>
+                         <th>@ViewBag.Info.Count</th>
+                         <td>@b.sum</td>
+                         <td>@(b.dayall+ b.dayoff)</td>
+                         <td>@b.no</td>
+                         <td>@b.lateness</td>
+                         @if (b.sum < ViewBag.Info.Task)
+                         {
+                             var d = ViewBag.Info.Task - b.sum;
+                            <td>@d</td>
+                         }else
+                         {
+                            <td>0</td>
+                         }
+
+                     </tr>
+                 }
+             </tbody>
+         </table>
+    </div>
+</body>
+</html>

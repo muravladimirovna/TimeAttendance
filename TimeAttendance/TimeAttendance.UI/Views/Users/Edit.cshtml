@@ -1,0 +1,113 @@
+﻿@*@model TimeAttendance.Domain.Models.AppUser*@
+@model TimeAttendance.UI.Models.EditViewModel
+@{
+    ViewBag.Title = "Редактирование пользователя";
+}
+@Html.ValidationSummary(false)
+
+    <h2>Редактирование пользователя</h2>
+<hr />
+<div class="well well-lg col-sm-offset-3 col-sm-5">
+    @using (Html.BeginForm("Edit", "Users", FormMethod.Post, new { @class = "form-horizontal", role = "form", id = "edtform" }))
+    {
+        <div class="container">
+            <div class="form-group">
+                <label class="col-sm-1 control-label">Логин</label>
+                <div class="col-sm-3">
+                    <div class="form-control-static">@Model.username</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-1 control-label">Фамилия</label>
+                <div class="col-sm-3">
+                    @Html.TextBoxFor(x => x.lastname, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-1 control-label">Имя</label>
+                <div class="col-sm-3">
+                    @Html.TextBoxFor(x => x.firstname, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-1 control-label">Отчество</label>
+                <div class="col-sm-3">
+                    @Html.TextBoxFor(x => x.middlename, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-1 control-label">E-mail</label>
+                <div class="col-sm-3">
+                    @Html.TextBoxFor(x => x.email, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-1 control-label">Телефон</label>
+                <div class="col-sm-3">
+                    @Html.TextBoxFor(x => x.phonenumber, new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+    }
+    <div class="container">
+        <div class="form-group">
+            <label class="col-sm-1 control-label">Роли:</label>
+            <div class="col-sm-3">
+                <table class="table table-bordered table-hover" style="background:white;margin-left: -10px">
+                    @foreach (var urole in ViewBag.Roles)
+            {
+                        <tr>
+                            @using (Html.BeginForm("Edit", "Users", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                                @Html.HiddenFor(x => x.id)
+                                @Html.HiddenFor(x => x.username)
+                                @Html.HiddenFor(x => x.firstname)
+                                @Html.HiddenFor(x => x.lastname)
+                                @Html.HiddenFor(x => x.middlename)
+                                @Html.HiddenFor(x => x.email)
+                                @Html.HiddenFor(x => x.phonenumber)
+                                <td>
+                                    <input value="@urole" name="delrole" type="hidden">@urole
+                                </td>
+                                <td>
+                                    <button class="btn btn-warning btn-xs glyphicon glyphicon-minus" type="submit"></button>
+                                </td>
+                            }
+                        </tr>
+                    }
+                    @foreach (var b in ViewBag.AddRoles)
+            {
+                        <tr>
+                            @using (Html.BeginForm("Edit", "Users", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                                @Html.HiddenFor(x => x.id)
+                                @Html.HiddenFor(x => x.username)
+                                @Html.HiddenFor(x => x.firstname)
+                                @Html.HiddenFor(x => x.lastname)
+                                @Html.HiddenFor(x => x.middlename)
+                                @Html.HiddenFor(x => x.email)
+                                @Html.HiddenFor(x => x.phonenumber)
+                                <td>
+                                    <input value="@b" name="addrole" type="hidden">@b
+                                </td>
+                                <td>
+                                    <button class="btn btn-success btn-xs glyphicon glyphicon-plus" type="submit"></button>
+                                </td>
+                            }
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+        <br clear="all" />
+        <div class="form-group">
+            <div class="col-sm-offset-1 col-sm-3">
+                <button type="submit" class="btn btn-primary" onclick="document.getElementById('edtform').submit()">Сохранить</button>
+                @Html.ActionLink("Отмена", "Index", null, new { @class = "btn btn-default" })
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,147 @@
+﻿@model TimeAttendance.UI.Models.CreateMarkModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col-md-8">
+    @using (Html.BeginForm("Create", "Marks", FormMethod.Post, new { @class = "form-horizontal", role = "form", id = "myform", onkeypress = "if(!event.shiftKey && event.keyCode==13) {document.getElementById('myform').submit()}" }))
+    {
+        if (ViewBag.UserId != null)
+        {
+            <h2>Добавить отметку для <b>@ViewBag.UserName</b></h2>
+            <input type="hidden" name="id" value="@ViewBag.UserId" />
+        }else
+        {
+            <h2>Выберите дату и время</h2>
+        }
+        if (Model.warning == true)
+        {
+            <font color="red">Пожалуйста, дополните предыдущую отметку!</font>
+            <input type="hidden" name="warning" value="true" />
+        }
+        <br clear="all" />
+        <div class="col-md-10 row flex-container">
+            <div class='col-sm-6'>
+                <div class="form-group" style="margin-bottom: 0;">
+                    <div class='input-group date'  style="max-width:300px">
+                        @if (Model.warning == true)
+                        {
+                            @Html.EditorFor(m => m.Date, new { htmlAttributes = new { @class = "form-control input-lg", id = "datetimepicker", type = "text", onkeypress = "if(!event.shiftKey && event.keyCode==13) {document.getElementById('myform').submit()}" } })
+                            <span class="input-group-addon" onclick="document.getElementById('datetimepicker').focus()">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        }else
+                        {
+                                @Html.EditorFor(m => m.Date, new { htmlAttributes = new { @class = "form-control input-lg", id = "datetimepicker0", type = "text", onkeypress = "if(!event.shiftKey && event.keyCode==13) {document.getElementById('myform').submit()}" } })
+                            <span class="input-group-addon" onclick="document.getElementById('datetimepicker0').focus()">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        }
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success btn-lg">
+                <span class="glyphicon glyphicon-plus"></span>
+                Отметка
+            </button>
+        </div>
+    }
+</div>
+<br clear="all" />
+<br />
+<hr />
+
+<div id="show"></div>
+
+<div id="Modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content" id="result"></div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/Scripts/jquery-1.11.1.js")
+    @Scripts.Render("~/Scripts/jquery.dataTables.min.js")
+    @Scripts.Render("~/Scripts/jquery.inputmask.bundle.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.js")
+    @*@Scripts.Render("~/Scripts/moment-with-locales.min.js")
+    @Scripts.Render("~/Scripts/bootstrap-datetimepicker.min.js")*@
+    @Scripts.Render("~/Scripts/moment-with-locales-1.js")
+    @Scripts.Render("~/Scripts/bootstrap-datetimepicker-1.js")
+
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker').inputmask("99.99.9999 99:99:99");
+            $('#datetimepicker').datetimepicker({
+                format: 'DD.MM.YYYY HH:mm:ss', //
+                locale: moment.locale("ru"),
+                minDate:moment().add(-(@Model.ServerDate.Day-@Model.Date.Date.Day), 'd').toDate(),
+                //maxDate:moment().add(-((@Model.ServerDate.Day-@Model.Date.Date.Day)-1), 'd').toDate(),
+                maxDate: 'now'
+            });
+
+            $('#datetimepicker0').inputmask("99.99.9999 99:99:99");
+            $('#datetimepicker0').datetimepicker({
+                format: 'DD.MM.YYYY HH:mm:ss', //
+                locale: moment.locale("ru"),
+                minDate: 'now',
+                maxDate: 'now',
+            });
+
+            $("#show").empty();
+            $.ajax({
+                type: "GET",
+                url: '/Marks/Index/',
+                data: { id: @ViewBag.UserId},
+                success: function (result) {
+                    $('#show').html(result);
+                    $(document).ready(function () {
+                        $('#example').DataTable({
+                            "order": [[ 0, "desc" ]]
+                        });
+                    });
+                }
+            })
+        });
+
+        function load(data) {
+            console.log(0);
+            $("#result").empty();
+            $.ajax({
+                type: "GET",
+                url: '/Marks/Edit',
+                data: { id: data },
+                success: function (result) {
+                    console.log('success');
+                    $('#result').html(result);
+
+                    //$('#datetimepicker1').inputmask("99.99.9999 99:99:99");
+                    $('#datetimepicker1').datetimepicker({
+                        format: 'DD.MM.YYYY HH:mm:ss', //
+                        locale: moment.locale("ru"),
+                        minDate: moment().add(-(@Model.ServerDate.Day -1), 'd').toDate(),
+                        maxDate: 'now',
+                    });
+
+                    $('#datetimepicker2').inputmask("99.99.9999 99:99:99");
+                    $('#datetimepicker2').datetimepicker({
+                        format: 'DD.MM.YYYY HH:mm:ss', //
+                        locale: moment.locale("ru"),
+                        minDate: moment().add(-(@Model.ServerDate.Day -1), 'd').toDate(),
+                        maxDate: 'now',
+                    });
+                }
+            })
+        };
+
+        function clear() {
+            $("#result").empty();
+        };
+
+    </script>
+}
+
+
+
+
+
+

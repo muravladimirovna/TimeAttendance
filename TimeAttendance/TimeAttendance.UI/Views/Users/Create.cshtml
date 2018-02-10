@@ -1,0 +1,86 @@
+﻿@model TimeAttendance.UI.Models.CreateViewModel
+@{
+    ViewBag.Title = "Добавление нового пользователя";
+}
+
+<h2>@ViewBag.Title</h2>
+<hr />
+
+@using (Html.BeginForm("Create", "Users", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+        <div class="form-group">
+            <label class="col-xs-4 control-label" style="text-align: right;">Фамилия</label>
+            <div class="col-xs-8">
+                @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+            </div>
+        </div>
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+        <div class="form-group">
+            <label class="col-xs-4 control-label" style="text-align: right;">Имя</label>
+            <div class="col-xs-8">
+                @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-xs-4 control-label" style="text-align: right;">Отчество</label>
+            <div class="col-xs-8">
+                @Html.TextBoxFor(m => m.MiddleName, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-xs-4 control-label" style="text-align: right;">Логин</label>
+            <div class="col-xs-8">
+                @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Email, new { @class = "col-xs-4 control-label", style = "text-align: right;" })
+            <div class="col-xs-8">
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-xs-4 control-label" style="text-align: right;">Номер телефона</label>
+            <div class="col-xs-8">
+                @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-xs-4 control-label">Добавить роль</label>
+            <div class="col-xs-8">
+                <select class="form-control" placeholder="Название роли" name="role">
+                    <option disabled selected>Выберите роль</option>
+                    <option value="user">user</option>
+                    <option value="admin">admin</option>
+                    <option value="locked">locked</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-xs-4 control-label" style="text-align: right;">Пароль</label>
+            <div class="col-xs-8">
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-xs-4 control-label" style="text-align: right;">Подтверждение пароля</label>
+            <div class="col-xs-8">
+                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-4 col-xs-8">
+                <input type="submit" class="btn btn-default" value="Добавить" />
+            </div>
+        </div>
+    </div>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+
+

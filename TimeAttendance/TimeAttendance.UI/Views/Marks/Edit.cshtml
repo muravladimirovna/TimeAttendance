@@ -1,0 +1,47 @@
+﻿@model TimeAttendance.UI.Models.EditMark
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="clear()">×</button>
+                <h4 class="modal-title">@Model.UserName</h4>
+            </div>
+            <div class="modal-body">
+                @using (Html.BeginForm("Edit", "Marks", FormMethod.Post, new { @class = "form-horizontal", role = "form", id = "myform", onkeypress = "if(!event.shiftKey && event.keyCode==13) {document.getElementById('myform').submit()}" }))
+                {
+                    @Html.HiddenFor(model => model.Id)
+                    @Html.HiddenFor(model => model.UserId)
+                    <div class="form-group">
+                        <div class="col-xs-3">
+                            <label>Время прихода:</label>
+                        </div>
+                        <div class="col-xs-5">
+                            <div class="form-group">
+                                <div class='input-group date'>
+                                    @Html.EditorFor(model => model.Coming_Date, new { htmlAttributes = new { @class = "form-control ", id = "datetimepicker1", type = "text" } })
+                                    <span class="input-group-addon"  onclick="document.getElementById('datetimepicker1').focus()">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-3">
+                            <label>Время ухода:</label>
+                        </div>
+                        <div class="col-xs-5">
+                            <div class="form-group">
+                                <div class='input-group date'>
+                                    @Html.EditorFor(model => model.Out_Date, new { htmlAttributes = new { @class = "form-control ", id = "datetimepicker2", type = "text" } })
+                                    <span class="input-group-addon"  onclick="document.getElementById('datetimepicker2').focus()">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-3">
+                            <button type="submit" class="btn btn-primary" onclick="clear()">Сохранить</button>
+                        </div>
+                    </div>
+                }
+            </div>

@@ -1,0 +1,62 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <div class="col-md-10 flex-container">
+        <h2>Список пользователей</h2> 
+        <div style="height: 35px;">
+            <a class="btn btn-success" href="/Users/Create">
+                <span class="glyphicon glyphicon-plus"></span>
+                Добавить пользователя
+            </a>
+        </div>
+    </div>
+    <div class="col-md-10">
+        <div class="table-responsive" style="margin-top: 5px;">
+            <table  id="example" class="table table-bordered display" cellspacing="0" style="margin-bottom:25px;">
+                <thead>
+                    <tr class="active">
+                        <th>Логин<span class="caret"></span></th>
+                        <th>E-mail<span class="caret"></span></th>
+                        <th>Имя<span class="caret"></span></th>
+                        <th>Фамилия<span class="caret"></span></th>
+                        <th>Отчество<span class="caret"></span></th>
+                        <th>Телефон<span class="caret"></span></th>
+                        <th>Изменить</th>
+                    </tr>
+                </thead>
+                @foreach (var b in ViewBag.Users)
+            {
+                    <tr>
+                        <td>@b.UserName</td>
+                        <td>@b.Email</td>
+                        <td>@b.FirstName</td>
+                        <td>@b.LastName</td>
+                        <td>@b.MiddleName</td>
+                        <td>@b.PhoneNumber</td>
+                        <td>
+                            <div class="flex-container" style="justify-content:space-around;border:none;">
+                                @Html.ActionLink(" ", "Edit", new { id = b.Id }, new { @class = "btn btn-primary btn-xs glyphicon glyphicon-edit",title = "Редактировать данные пользователя" })
+                                @Html.ActionLink(" ", "ChangePassword", new { id = b.Id }, new { @class = "btn btn-warning btn-xs glyphicon glyphicon-lock", title = "Изменить пароль пользователя" })
+                                @Html.ActionLink(" ", "../Marks/Create", new { id = b.Id }, new { @class = "btn btn-success btn-xs glyphicon glyphicon-check", title = "Просмотреть отметки пользователя" })
+                            </div>
+                        </td>  
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+    <br clear="all"/>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/bootstrap.min.js")
+    @Scripts.Render("~/Scripts/jquery-1.12.4.js")
+    @Scripts.Render("~/Scripts/jquery.dataTables.min.js")
+    <script type="text/javascript">
+	    $(document).ready(function () {
+		    $('#example').DataTable();
+	    });
+    </script>
+}

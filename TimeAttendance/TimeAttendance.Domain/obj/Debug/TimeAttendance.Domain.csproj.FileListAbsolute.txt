@@ -1,0 +1,42 @@
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\bin\Debug\TimeAttendance.Domain.dll.config
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\bin\Debug\TimeAttendance.Domain.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\bin\Debug\TimeAttendance.Domain.pdb
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\bin\Debug\EntityFramework.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\bin\Debug\EntityFramework.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\obj\Debug\TimeAttendance.Domain.csprojResolveAssemblyReference.cache
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\obj\Debug\TimeAttendance.Domain.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\obj\Debug\TimeAttendance.Domain.pdb
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\Новая папка\TimeAttendance\TimeAttendance.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\obj\Debug\TimeAttendance.Domain.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\obj\Debug\TimeAttendance.Domain.pdb
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\TimeAttendance.Domain.dll.config
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\TimeAttendance.Domain.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\TimeAttendance.Domain.pdb
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\EntityFramework.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\EntityFramework.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\murav\Desktop\!ПРАКТИКА\проект\TimeAttendance\TimeAttendance.Domain\obj\Debug\TimeAttendance.Domain.csprojResolveAssemblyReference.cache
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\TimeAttendance.Domain.dll.config
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\TimeAttendance.Domain.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\TimeAttendance.Domain.pdb
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\EntityFramework.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\EntityFramework.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\obj\Debug\TimeAttendance.Domain.csprojResolveAssemblyReference.cache
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\obj\Debug\TimeAttendance.Domain.dll
+C:\Users\murav\Desktop\проект\TimeAttendance\TimeAttendance.Domain\obj\Debug\TimeAttendance.Domain.pdb

@@ -1,0 +1,22 @@
+insert into ta.time(date)
+SELECT * FROM generate_series('2017-01-01'::date,
+                              '2017-12-31', '1 day');
+
+UPDATE ta.time
+SET count = 8
+
+UPDATE ta.time
+SET count = 0
+WHERE EXTRACT(dow FROM date) IN (0,6)
+UPDATE ta.time
+SET count = 0
+WHERE to_char(date,'Day') = 'Sunday' or 
+to_char(date,'Day') = 'Saturday'
+__________________________________________________________
+
+SELECT to_char(date,'Day') FROM ta."time"
+WHERE to_char IN ('Sunday','Saturday')
+
+SELECT * FROM (select id, date, to_char(date,'Day') as day 
+FROM ta."time") AS new
+WHERE EXTRACT(dow FROM date) IN (0,6)

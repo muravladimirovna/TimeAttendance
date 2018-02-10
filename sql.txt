@@ -1,0 +1,108 @@
+CREATE TABLE ta."time" (
+  id SERIAL NOT NULL,
+  date DATE UNIQUE,
+  count INTEGER DEFAULT 8,
+  PRIMARY KEY(id)
+)
+
+insert into ta.time(date)
+SELECT * FROM generate_series('2017-01-01'::date,'2017-12-31', '1 day');
+
+UPDATE ta.time
+SET count = 0
+WHERE 
+EXTRACT(dow FROM date) IN (0,6)
+OR (date >= '2017-01-02' AND date <= '2017-01-06')
+OR date IN ('2017-02-23','2017-02-24','2017-03-08','2017-05-01', '2017-05-08', '2017-05-09', '2017-06-12','2017-11-06')
+
+UPDATE ta.time
+SET count = 7
+WHERE date IN ('2017-02-22', '2017-03-07', '2017-11-03')
+______________________________________________________________________
+SELECT SUM (count) 
+FROM ta.time
+
+SELECT * FROM ta.mark,
+extract(HOUR from (Out_Date - Coming_Date)) AS hours,
+extract(MINUTE from (Out_Date - Coming_Date)) AS minutes
+WHERE (minutes + hours*60) >= 540
+
+SELECT SUM (extract(HOUR from (Out_Date - Coming_Date))) FROM ta.mark WHERE "UserId" =  1
+
+
+SELECT SUM (EXTRACT(EPOCH FROM AGE(Out_Date, Coming_Date))/3600) FROM ta.mark WHERE "UserId" =  4;
+
+
+--часы/мес одного пользователя
+SELECT "UserId", CAST(SUM(EXTRACT(EPOCH FROM AGE(Out_Date, Coming_Date))/3600) AS INTEGER) 
+FROM ta.mark 
+WHERE "UserId" =  4 AND 
+Extract(MONTH from Coming_Date::date ) = 6
+GROUP BY "UserId"; 
+
+
+--сумма часов за месяц каждого пользователя
+SELECT "UserId",  CAST (SUM (EXTRACT(EPOCH FROM AGE(Out_Date, Coming_Date))/3600) AS INTEGER)
+FROM ta.mark
+WHERE Extract(MONTH from Coming_Date::date ) = 6
+GROUP BY "UserId"
+ORDER BY "UserId" ASC
+
+--норма часов в месяц
+SELECT Extract(MONTH from "date"::date) AS month,
+  CAST (SUM (count) AS integer)
+FROM ta."time"
+WHERE Extract(MONTH from "date"::date ) = 6
+GROUP BY month
+
+-- количество часов по дням одного пользователя
+SELECT ta."time"."date", mark.sum 
+FROM  ta."time" LEFT JOIN 
+    (SELECT Coming_Date, 
+    CAST(EXTRACT(EPOCH FROM AGE(ta.mark.Out_Date, ta.mark.Coming_Date))/3600 AS integer) AS sum
+    FROM  ta.mark
+    WHERE "UserId" = 4) AS mark
+ON ta."time"."date" = mark.Coming_Date::date
+WHERE Extract(MONTH from ta."time"."date") = 6
+ORDER BY ta."time"."date"
+
+
+SELECT "date", count
+FROM  ta."time"
+WHERE Extract(MONTH from ta."time"."date"::date ) = 6
+ORDER BY "date"
+
+--название месяца
+select to_char("date", 'TMMonth')
+FROM ta."time"
+WHERE Extract(MONTH from "date"::date ) = 6
+
+--опоздания
+SELECT coming_date
+FROM ta.mark 
+WHERE Extract(MONTH from Coming_Date::date ) = 6 
+AND 
+"UserId" = 4 
+AND 
+CAST(((EXTRACT(EPOCH FROM AGE(Out_Date, Coming_Date))-3600)/3600) AS INTEGER) < 8
+AND 
+Coming_Date::time > '08:05:00'
+ORDER BY "UserId" ASC
+
+
+
+SELECT ta.mark."UserId", ta.user."UserName", ta.user.firstname, 
+ta.user.lastname, ta.user.middlename, 
+CAST (SUM ((EXTRACT(EPOCH FROM AGE(Out_Date, Coming_Date))-3600)/3600) AS INTEGER)
+FROM ta.mark INNER JOIN ta.user ON ta.mark."UserId" = ta.user."Id" 
+WHERE Extract(MONTH from Coming_Date::date ) = 6 
+AND 
+Extract(YEAR from Coming_Date::date ) = 2017 
+AND
+Extract(DAY from Coming_Date::date ) <> Extract(DAY from OUT_Date::date )
+GROUP BY "UserId", ta.user."UserName", ta.user.firstname, 
+ta.user.lastname, ta.user.middlename ORDER BY ta.user.lastname;
+
+
+SELECT * FROM ta.mark
+WHERE out_date IS NULL
